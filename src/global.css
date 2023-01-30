@@ -9,6 +9,7 @@
 
   --blue: #4ea8de;
   --blue-dark: #1e6f9f;
+  --blue-dark-20: #1e6f9f33;
 
   --purple: #8284fa;
   --purple-dark: #5e60ce;
@@ -44,6 +45,7 @@ button {
   line-height: 140%;
 }
 
-button {
+button,
+input[type="checkbox"] {
   cursor: pointer;
 }

@@ -16,10 +16,12 @@
   margin-top: 64px;
 }
 
-.content .list {
+.tasks .list {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
 }
