@@ -1,0 +1,46 @@
+.addBar {
+  height: 54px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  margin-top: -27px;
+}
+
+.addBar input {
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  color: var(--gray-100);
+  padding: 16px;
+  transition: border 0.2s;
+}
+
+.addBar input:focus {
+  border: 1px solid var(--purple-dark);
+}
+
+.addBar button {
+  height: 52px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+  color: var(--gray-100);
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  transition: background-color 0.2s;
+}
+
+.addBar button:hover {
+  background-color: var(--blue);
+}
+
+.addBar button svg {
+  color: var(--gray-100);
+}
