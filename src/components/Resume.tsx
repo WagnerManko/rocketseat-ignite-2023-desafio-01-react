@@ -1,15 +1,20 @@
 import styles from './Resume.module.css';
 
-export function Resume(){
+interface ResumeProps {
+    done: number;
+    total: number;
+}
+
+export function Resume({done = 0, total = 0}: ResumeProps){
     return (
         <div className={styles.resume}>
             <p>
                 Tarefas Criadas
-                <span>0</span>
+                <span>{done}</span>
             </p>
             <p>
                 Tarefas Concluídas
-                <span>0</span>
+                <span>{total}</span>
             </p>
         </div>
     )
